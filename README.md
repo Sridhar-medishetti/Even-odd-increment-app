@@ -18,77 +18,24 @@ In this project, let's build an **Even Odd App** by applying the concepts we hav
 
 </details>
 
-### Set Up Instructions
+# Even Odd App
 
-<details>
-<summary>Click to view</summary>
+An interactive React application that practices state management, event handling, and conditional rendering. The app tracks a counter that increments by a random number on each click and dynamically updates whether the total is even or odd.
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
+## Features
+- **Random Increments:** Increases the total count by a random integer between 0 and 100 on every button click.
+- **Dynamic State Updates:** Manages the counter value locally using React class component state.
+- **Conditional Rendering:** Evaluates the number mathematically to instantly display "Count is Even" or "Count is Odd".
+- **Responsive Layout:** Clean, visually balanced interface matching detailed UI design guidelines across multiple screen breakpoints.
 
-### Completion Instructions
+## Tech Stack
+- **Frontend Framework:** React.js (Class Components)
+- **Styling:** CSS3 (Flexbox & Linear Gradients)
+- **Scripting:** JavaScript (ES6+, Math utilities)
+- **Design Specifications:** Roboto font family with custom hex color configurations
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- Initially, the count should be **0** and **Count is Even** text should be displayed
-- When the **Increment** button is clicked,
-  - The count should be increased by a random value between 0 to 100
-  - If the incremented count is an even number, then the **Count is Even** text should be displayed
-  - If the incremented count is an odd number, then the **Count is Odd** text should be displayed
-
-</details>
-
-<details>
-<summary>Implementation Files</summary>
-<br/>
-
-Use these files to complete the implementation:
-
-- `src/components/EvenOddApp/index.js`
-- `src/components/EvenOddApp/index.css`
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-<br/>
-**The following instructions are required for the tests to pass**
-
-- Achieve the given layout using only Conditional Rendering
-</details>
-
-### Resources
-
-<details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #ff6e7f ; width: 150px; padding: 10px; color: white">Hex: #ff6e7f</div>
-<div style="background-color: #bfe9ff ; width: 150px; padding: 10px; color: black">Hex: #bfe9ff</div>
-<div style="background-color: #0f172a ; width: 150px; padding: 10px; color: white">Hex: #0f172a</div>
-<div style="background-color: #334155 ; width: 150px; padding: 10px; color: white">Hex: #334155</div>
-<div style="background-color: #ffffff ; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #1e293b ; width: 150px; padding: 10px; color: white">Hex: #1e293b</div>
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+## Setup Instructions
+1. Clone the repository and navigate into the project directory.
+2. Install the necessary dependencies:
+   ```bash
+   npm install
