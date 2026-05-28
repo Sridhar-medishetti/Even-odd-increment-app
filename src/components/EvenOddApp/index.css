@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  font-family: 'Roboto';
+  padding: 20px;
+}
+
+.card-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  max-width: 450px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.status {
+  color: #334155;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.increment-button {
+  background-color: #ffffff;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 16px;
+  transition: background-color 0.2s ease;
+}
+
+.increment-button:hover {
+  background-color: #f1f5f9;
+}
+
+.note {
+  color: #334155;
+  font-size: 12px;
+  margin: 0;
+}
